@@ -1,0 +1,102 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+jupyter_notebook_config.py
+
+# Machine Learning specific
+# Models
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.pth
+*.ckpt
+*.pb
+*.onnx
+*.tflite
+saved_models/
+checkpoints/
+models/weights/
+
+# Datasets (uncomment if you don't want to track data)
+# data/
+# datasets/
+# *.csv
+# *.tsv
+# *.json
+# *.parquet
+
+# Large data files
+*.hdf
+*.tfrecord
+*.npy
+*.npz
+
+# Logs and outputs
+logs/
+*.log
+runs/
+tensorboard/
+wandb/
+mlruns/
+outputs/
+results/
+
+# Environment variables
+.env
+.env.local
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
